@@ -167,9 +167,9 @@
 
   <script>
     const personalWarehouses = [
-      {size: 'small', count: 5, icon: '🏠', nft: 40},
-      {size: 'medium', count: 3, icon: '🏢', nft: 80},
-      {size: 'large', count: 2, icon: '🏭', nft: 200}
+      {size: 'small', count: 2, icon: '🏠', nft: 40},
+      {size: 'medium', count: 4, icon: '🏢', nft: 80},
+      {size: 'large', count: 4, icon: '🏭', nft: 200}
     ];
 
     const clanWarehouses = [
@@ -207,12 +207,44 @@
         for (let i = 0; i < warehouse.count; i++) {
           let owner, nft, rentedUntil;
           if (isPersonal && index === 1) {
-            owner = 'Irina';
-            nft = 37;
+            owner = 'maximus159rus.tg';
+            nft = 40;
             rentedUntil = '01.10.2024';
           } else if (isPersonal && index === 2) {
-            owner = 'Mikhail';
-            nft = 15;
+            owner = 'kolibry8.tg';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 3) {
+            owner = 'miplix.tg';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 4) {
+            owner = 'ramankuntsevich.tg';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 5) {
+            owner = 'well076.tg';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 6) {
+            owner = 'udandelion.near';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 7) {
+            owner = 'tona1985.tg';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 8) {
+            owner = 'vadart1985.tg';
+            nft = 40;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 9) {
+            owner = 'se_la_via.tg';
+            nft = 200;
+            rentedUntil = '05.10.2024';
+            } else if (isPersonal && index === 10) {
+            owner = 'zefirinochka.tg';
+            nft = 200;
             rentedUntil = '05.10.2024';
           } else if (!isPersonal && index === 1) {
             owner = 'Бобровый клан';
